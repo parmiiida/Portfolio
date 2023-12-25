@@ -21,7 +21,7 @@ const ProjectCard =({ index, name ,description ,tags ,image, source_code_link })
         <div className="relative w-full h-[230px]">
           <img src={image}
           alt={name}
-          className="w-full object-cover rounded-2xl "
+          className="w-full object-cover rounded-2xl object-top absolute h-full w-full object-cover object-contain shadow-lg rounded-t-lg lg:rounded-lg"
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div

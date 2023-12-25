@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { Image } from "@react-three/drei";
 
 const Hero = () => {
   return (
@@ -16,12 +17,16 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915eff]">Parmida</span></h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
+            I develop Websites , user <br className='sm:block hidden' />
             interfaces and web applications
             </p>
         </div>
       </div>
       <ComputersCanvas/>
+      {/* <Image
+        fill
+        src='./avatar.png'
+        alt=''/> */}
 
       <div className="absolute xs:bottom-0 bottom-0 w-full flex justify-center
       items-center">

@@ -2,6 +2,7 @@ import {
     mobile,
     backend,
     creator,
+    blog,
     web,
     javascript,
     typescript,
@@ -16,6 +17,7 @@ import {
     meta,
     udemy,
     metaversus,
+    travel_app,
     threejs,
     javascriptMastery
   } from "../assets";
@@ -188,6 +190,51 @@ import {
       image: metaversus,
       source_code_link: "https://github.com/parmiiida/Metaversus",
     },
+    {
+      name: "Travel_app",
+      description:
+        "Metaversus is a modern Next13 website with Framer motion and tailwind css",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: travel_app,
+      source_code_link: "https://github.com/parmiiida/travel-app",
+    },
+    {
+      name: "Blog",
+      description:
+        "Metaversus is a modern Next13 website with Framer motion and tailwind css",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwindcss",
+          color: "pink-text-gradient",
+        },
+
+      ],
+      image: blog,
+      source_code_link: "https://github.com/parmiiida/Blog",
+    }
+
+
   ];
 
   export { services, technologies, experiences, testimonials, projects };
